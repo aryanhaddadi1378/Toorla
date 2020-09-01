@@ -1,0 +1,41 @@
+entry class MainTest :
+    public field x,y int[];
+    public function xe() returns int:
+    x = new int[4];
+            x[2] = 4;
+            x[0] = 3;
+            x[1] = 9;
+            x[3] = 13;
+            print(x);
+            y = x;
+            print(y);
+            print("hojjat");
+            var k = "dj";
+            print(k);
+            return 1;
+    end
+    public function main() returns int:
+    if (2==1)begin
+        var t = new MainTest();
+        var a = t.xe();
+        print(t.x);
+        var pp = xe();
+        print(x);
+     end
+     else print(4);
+        return 0;
+    end
+
+end
+
+
+class p :
+public field t int;
+    public function r()returns int:
+        print(2);
+        t = 3;
+    return 0;
+    end
+
+end
+

@@ -1,0 +1,44 @@
+
+//no main with desired signature
+
+entry class MainTest:
+    public function main() returns MainTest:
+        var obj = new MainTest();
+        var x = 0;
+        var y = 2;
+        var test3obj = new Test3();
+        var test2obj = new Test2();
+        var obj1 = new Test3();
+        var boolean = true;
+        while( x - y < 56 )  begin
+            if( x == 4 ) begin
+                y = y + 1;
+                x = x - 2;
+                obj = test3obj;
+            end
+            elif( x > 4 ) begin
+               y = 3;
+               obj = test2obj;
+               boolean = false;
+            end
+            boolean = true;
+            x++;
+            y++;
+        end
+        if( obj == test3obj) //1
+            return new MainTest();
+        elif( obj <> obj1 ) // 1
+            return new Test3();
+        elif( boolean == 1 ) // 1
+            return new Test2();
+    end
+
+end
+
+class Test2 inherits MainTest :
+
+end
+
+class Test3 inherits Test2:
+
+end

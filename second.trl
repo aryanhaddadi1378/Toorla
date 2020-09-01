@@ -1,0 +1,23 @@
+
+
+//no main with desired signature
+entry class MainTest inherits Test2 :
+
+    private function main() returns int:
+        var x = 2;
+        begin
+
+            var x = 5;
+            var v = 2;
+            begin
+                v = 5;
+                var v = "qw";
+            end
+        end
+        return 0;
+    end
+
+end
+
+
+

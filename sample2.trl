@@ -1,0 +1,12 @@
+entry class Sample2 :
+    function main() returns int :
+        var a = 2;
+        begin
+            var a = 2;
+            a.length() = 5;
+            c++;
+        end
+        return 0;
+    end
+
+end
