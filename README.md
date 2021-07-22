@@ -1,1 +1,2 @@
-# This project is provided code for Toorla language's compiler.
+# Toorla Programming Language
+An Object-Oriented Programming Language Named TOORLA.
