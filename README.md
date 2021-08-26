@@ -1,2 +1,2 @@
 # Toorla Programming Language
-An Object-Oriented Programming Language Named TOORLA.
+This project is a compiler for an Object-Oriented Programming Language named TOORLA.
